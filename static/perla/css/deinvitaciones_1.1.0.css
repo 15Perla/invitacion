@@ -1,0 +1,514 @@
+@media (max-width: 767.98px) {
+    .gla_image_bck{
+        background-position: 35% 50%; 
+    }
+}
+
+/* body {
+    color: #b19a5c !important;
+    font: 300 25px/25px 'CAC Champagne',Open Sans, Arial,sans-serif;
+} */
+
+.nombres {
+    background-image:url("../images/ramilletecuadro4.png");
+    background-size: 100%;
+}
+
+.gbutton {
+    background-image: url("../images/gmap2.png"); /* 16px x 16px */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: center;  /* equivalent to 'top left' */
+    /*border: none;            assuming we don't want any borders */
+    height: 70px;
+    width: 70px;
+    border: 2px solid #b19a5c;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-width: thin;
+}
+
+
+.geometria{
+    position:absolute;    
+    background-image: url("../images/flor.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain;
+    background-position-x: right;
+}
+
+.geometriawhite{
+    position:absolute;    
+    background-image: url("../images/flowerwhite.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain;
+    background-position-x: right;
+}
+
+
+.whiteline{
+    border-color: #fff !important;
+}
+
+.rightline{
+    position:absolute;
+    border-right: 1px solid #000000;
+    top:132px;
+    bottom: 10px;
+    right: 10px;
+    height: auto;
+}
+
+.leftline{
+    position:absolute;
+    border-left: 1px solid #000000;
+    top:50px;
+    bottom: 92px;
+    left: 10px;
+    height: auto;
+}
+
+.bottomline{
+    position:absolute;
+    border-top: 1px solid #000000;
+    bottom: 10px;
+    left: 125px;
+    right: 10px;
+    width: auto;
+}
+
+.topline{
+    position:absolute;
+    border-top: 1px solid #000000;
+    top: 50px;
+    left: 10px;
+    right: 125px;
+    width: auto;
+}
+
+.mancha{
+    position:absolute;    
+    background-image: url("../images/mancha.png");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size:contain;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.mancha-top{
+    top: 0;
+    width: 100%;
+    height: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(-1);
+}
+
+.mancha-bottom{
+    bottom: 0;
+    width: 100%;
+    height: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.geometria-topleft{
+    left: 0px;
+    top: 0px;
+    /* transform: scale(-1); */
+}
+
+.geometria-topright{
+    right: 0px;
+    top: 0px;
+    /* transform: scaleX(-1); */
+}
+
+.geometria-bottomright{
+    right: 0px;
+    bottom: 0px;
+    transform: scale(-1);
+}
+
+
+
+/* .geometria-bottomright{
+    right: 10px;
+    bottom: 5px;
+    transform: scale(-1);
+} */
+
+.geometria-bottomleft{
+    left: 0px;
+    bottom: 0px;
+    transform: scale(-1);
+}
+
+
+
+
+.geometria-topleft,.geometria-topright,.geometria-bottomright,.geometria-bottomleft{
+    width: 120px;
+    height: 82px;
+}
+
+.bottomFlower-container{
+    position: absolute;
+    bottom: 0;  /*el 0 es para saber que no hay espacio entre la pag sig y la flor*/
+    width: 100%;
+}
+
+
+.iglesiaImage{
+    background-position: center;
+}
+
+.smallflower{
+    background-image: url("../images/florchica.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain;
+    background-position-x: right;
+    margin-right: auto;
+    margin-left: auto;
+    width: 180px;
+    height: 89px;
+}
+
+.f3{
+    font-family: 'Baskerville-Regular'; 
+    font-size:19px;
+}
+
+.f4{
+    font-family: 'Aparajita';
+    font-size: 35px;
+}
+
+.f5{
+    font-family: 'margarita-pro';
+    font-size: 35px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.f6{
+    font-family: 'BonVivantSerif';
+    font-size: 15px;
+    margin-top: 0px;
+    color:#000 !important
+}
+
+.f7{
+    font-family: 'CAC Champagne';
+    font-size: 50px;
+    margin-top: 0px;
+    color:#000 !important
+}
+
+.f8{
+    font-family: 'CAC Champagne';
+    font-size: 60px;
+    margin-top: 0px;
+    color:#b19a5c !important
+}
+
+.f9{
+    font-family: 'StayClassy';
+    font-size: 64px;
+    margin-top: 0px;
+    color:#b19a5c !important
+}
+
+.f10{
+    font-family: 'StayClassy';
+    font-size: 58px;
+    margin-top: 0px;
+    color:#000 !important
+}
+
+.f3 p{
+    margin-bottom: 0;
+}
+
+.portadatext{
+    font-family: "CAC Champagne";
+    color: #000;
+    font-size: 22px;
+}
+
+.dateLogo{
+    color:#444;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+p.recepcionrequirments{
+    margin-bottom: 5px !important;
+}
+
+div.recepciondetailimg{
+    width: 25px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain;
+    background-position-x: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.recepciondetail{
+    font-size:14px
+}
+
+div.cubrebocas{
+    background-image: url("../images/cubrebocas.png");
+}
+
+div.vestimenta{
+    background-image: url("../images/vestimenta.png");
+}
+
+div.sobre{
+    background-image: url("../images/sobre.png");
+}
+
+.deinvitacioneslogo{
+    background-image: url("../images/deinvitaciones.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain;
+    background-position-x: right;
+    margin-right: auto;
+    margin-left: auto;
+    width: 119px;
+    height: 50px;
+}
+
+.gla_slider img {
+    max-width: 220px!important;
+    height: auto;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    .flower-topleft{
+        width: 340px;
+        height: 126px;
+    }
+
+    .flower-bottomright{
+        width: 340px;
+        height: 126px;
+    }
+
+    .geometria-topleft{
+        width: 231px;
+        height: 230px;
+    }
+
+    .geometria-bottomright{
+        width: 251px;
+        height: 250px;
+    }
+
+    .geometriasmall-topleft,.geometriasmall-topright,.geometriasmall-bottomright,.geometriasmall-bottomleft{
+        width: 170px;
+        height: 200px;
+    }
+ }
+
+ /* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .flower-topleft{
+        width: 300px;
+        height: 542px;
+    }
+
+    .flower-bottomright{
+        width: 400px;
+        height: 542px;
+    }
+
+    .geometria-topleft{
+        width: 520px;
+        height: 759px;
+    }
+
+    .geometria-bottomright{
+        width: 680px;
+        height: 759px;
+    }
+
+    .geometriasmall-topleft,.geometriasmall-topright,.geometriasmall-bottomright,.geometriasmall-bottomleft{
+        width: 235px;
+        height: 200px;
+    }
+ }
+
+ /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .flower-topleft{
+        width: 300px;
+        height: 542px;
+    }
+
+    .flower-bottomright{
+        width: 400px;
+        height: 542px;
+    }
+
+    .geometria-topleft{
+        width: 520px;
+        height: 759px;
+    }
+
+    .geometria-bottomright{
+        width: 680px;
+        height: 759px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .flower-topleft{
+        width: 480px;
+        height: 542px;
+    }
+
+    .flower-bottomright{
+        width: 520px;
+        height: 542px;
+    }
+
+    .geometria-topleft{
+        width: 850px;
+        height: 759px;
+    }
+
+    .geometria-bottomright{
+        width: 896px;
+        height: 759px;
+    }
+
+    .geometriasmall-topleft,.geometriasmall-topright,.geometriasmall-bottomright,.geometriasmall-bottomleft{
+        width: 280px;
+        height: 227px;
+    }    
+ }
+
+
+
+ .gla_auto_height .gla_image_bck:not(.miniportada)[data-image] {
+    min-height: 250px !important;
+ }
+
+
+
+.accordion {
+    font-family: 'Stay Classy Duo Serif';
+    font-size: 16px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #af8c54;
+    color: #b19a5c;
+    cursor: pointer;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+}
+
+.panel {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    border: 1px dotted #af8c54;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    /* padding:10px; */
+}
+
+
+span.banco{
+    font-family: 'Stay Classy Duo Serif';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+span.bancodata{
+    font-family: 'Aparajita';
+    font-size: 12px;
+}
+
+.panel img.bbva{
+    width: 80px;
+    margin-top: 10px;
+}
+
+.panel p{
+    margin-bottom: 0;
+}
+
+.panel img.liverpool{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btnconfirmacion{
+    width: 200px;
+    height: 41px;
+    background-color: rgba(0,0,0,0);
+    background-image: url("../images/confirmacionbtn.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain;
+    border-radius: 0px;
+}
+
+#btnempezar{
+    width: 147px;
+    height: 35px;
+    background-color: rgba(0,0,0,0);
+    background-image: url("../images/empezarbtn.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:contain;
+    border-radius: 0px;
+}
+
+.video-container2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../images/digital-portada.gif") no-repeat center center/cover;
+}
+
+.video-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply; 
+}
