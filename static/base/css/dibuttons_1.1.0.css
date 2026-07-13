@@ -1,0 +1,105 @@
+@keyframes anim-glow {
+    0% {
+        box-shadow: 0 0 1px 1px var(--accent-color,#ad8b39);
+    }
+    50% {
+        box-shadow: 0 0 10px 1px var(--accent-color,#ad8b39);
+    }
+    100% {
+        box-shadow: 0 0 1px 1px var(--accent-color,#ad8b39);
+    }
+}
+
+.di_button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    border:1px solid var(--accent-color,#ad8b39);
+    background-color: var(--button-background-color,#ffffff);
+    border-radius: 20px;
+    font-family: 'Stay Classy Duo Serif';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: anim-glow 2s ease infinite;
+    margin-bottom: 10px;
+}
+
+.liverpoolbtn{
+    width: 200px;
+    height: 41px;
+    font-size: 20px;
+}
+.recepcionbtn{
+    width: 200px;
+    height: 41px;
+    font-size: 20px;
+}
+
+.confirmacionbtn{
+    width: 210px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.musicbtn{
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 17px;
+}
+
+.di_button img{
+    filter: invert(52%) sepia(73%) saturate(357%) hue-rotate(5deg) brightness(110%) contrast(100%);
+    border-right: 1px solid var(--accent-color,#ad8b39);
+}
+
+.liverpoolbtn img{
+    height: 55%;
+    width: auto;
+    padding-right: 7px;
+    margin-right: 20px;
+}
+
+.recepcionbtn img{
+    height: 75%;
+    padding-right: 7px;
+    margin-right: 20px;
+}
+
+.confirmacionbtn img{
+    height: 69%;
+    padding-right: 7px;
+    margin-right: 20px;
+}
+
+.gbutton {
+    height: 70px;
+    width: 70px;
+    border: 2px solid var(--accent-color,#ad8b39);
+    background-color: var(--button-background-color,#ffffff);
+    border-radius: 8px;
+    border-width: thin;
+    animation: anim-glow 2s ease infinite;
+}
+
+.gbutton img{
+    width: 30px !important;
+    height: 43px !important;
+}
+
+.gbuttonmesa {
+    height: 50px;
+    width: 160px;
+    font-size: 20px;
+    border: 2px solid var(--accent-color,#ad8b39);
+    background-color: var(--button-background-color,#ffffff);
+    border-radius: 16px;
+    border-width: thin;
+    animation: anim-glow 2s ease infinite;
+}
